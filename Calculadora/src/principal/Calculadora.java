@@ -68,15 +68,15 @@ public class Calculadora{
             if (operacion.equalsIgnoreCase("+")){
                 resultado = operaciones.sumar(operandos[0], operandos[1]);
                 System.out.println ("Resultado: " + resultado);
-                LOGGER.log(Level.FINE + " funciona bien la suma");
+                LOGGER.log(Level.FINE, " funciona bien la suma");
             } else if (operacion.equalsIgnoreCase("-")){
                 resultado = operaciones.restar(operandos[0], operandos[1]);
                 System.out.println ("Resultado: " + resultado);
-                LOGGER.log(Level.FINE + " funciona bien la resta");
+                LOGGER.log(Level.FINE, " funciona bien la resta");
             } else if (operacion.equalsIgnoreCase("*")){
                 resultado = operaciones.multiplicar(operandos[0], operandos[1]);
                 System.out.println ("Resultado: " + resultado);
-                LOGGER.log(Level.FINE + " funciona bienla multiplicacion");
+                LOGGER.log(Level.FINE, " funciona bien la multiplicacion");
             } else if (operacion.equalsIgnoreCase("/")){
             	
             	/**
@@ -86,9 +86,9 @@ public class Calculadora{
             	try {
             		resultado = operaciones.dividir(operandos[0], operandos[1]);
                     System.out.println ("Resultado: " + resultado);
-                    LOGGER.log(Level.FINE + " funciona bien");
+                    LOGGER.log(Level.FINE, " funciona bien");
             	}catch (ArithmeticException exception) {
-            		LOGGER.log(Level.WARNING + " Error Aritmético " + exception.getMessage());
+            		LOGGER.log(Level.WARNING, " Error Aritmético " + exception.getMessage());
             	}
                 
             	 
@@ -96,7 +96,7 @@ public class Calculadora{
             } else if (operacion.equalsIgnoreCase("%")){		//Está amarillo porque no pasa por la última parte del código.
                 resultado = operaciones.resto(operandos[0], operandos[1]);
                 System.out.println ("Resultado: " + resultado);
-                LOGGER.log(Level.FINE + " funciona bien");
+                LOGGER.log(Level.FINE, " funciona bien");
             } else {
                 System.out.println ("Operación no válida");		//El bucle no permite que el código pase por aquí.
             }

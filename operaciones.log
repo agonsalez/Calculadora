@@ -1,4 +1,64 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
+<record>
+  <date>2023-02-03T13:20:35.246745100Z</date>
+  <millis>1675430435246</millis>
+  <nanos>745100</nanos>
+  <sequence>0</sequence>
+  <logger>principal.Calculadora</logger>
+  <level>WARNING</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message> Error Aritmético / by zero</message>
+</record>
+<record>
+  <date>2023-02-03T13:20:41.964210600Z</date>
+  <millis>1675430441964</millis>
+  <nanos>210600</nanos>
+  <sequence>1</sequence>
+  <logger>principal.Calculadora</logger>
+  <level>FINE</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message> funciona bien la multiplicacion</message>
+</record>
+<record>
+  <date>2023-02-03T13:21:05.994248800Z</date>
+  <millis>1675430465994</millis>
+  <nanos>248800</nanos>
+  <sequence>2</sequence>
+  <logger>principal.Calculadora</logger>
+  <level>WARNING</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message> Error Aritmético / by zero</message>
+</record>
+<record>
+  <date>2023-02-03T13:21:17.065357500Z</date>
+  <millis>1675430477065</millis>
+  <nanos>357500</nanos>
+  <sequence>3</sequence>
+  <logger>principal.Calculadora</logger>
+  <level>FINE</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message> funciona bien la resta</message>
+</record>
+<record>
+  <date>2023-02-03T13:21:24.784720400Z</date>
+  <millis>1675430484784</millis>
+  <nanos>720400</nanos>
+  <sequence>4</sequence>
+  <logger>principal.Calculadora</logger>
+  <level>WARNING</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message> Error Aritmético / by zero</message>
+</record>
 </log>
